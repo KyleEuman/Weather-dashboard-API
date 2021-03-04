@@ -5,10 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard API</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
     <link rel='stylesheet' href="Assets/style.css"/>
 </head>
 <body>
+    <header class="Header"><h1>Weather Dashboard</h1></header>
+
+    <div class='container'>
+        <div class='search'>
+            <div class='row'>
+                <h2>Search For A City</h2>
+                <div class="row">
+                    <input type='text' class='searchInput' placeholder="City Name">
+                    <button type="submit" class="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='History'></div>
     
+    <div class='Container-two'>
+    <div class='Forecast'>
+        <div class='row'>
+            <h3 class='CityName'>City Name</h3>
+            <h3 class='currentdate'></h3>
+            <img class='WeatherIcon'></img>
+            </div>
+        </div>
+    </div>
+
+    <div class='row'>
+        <p class='temp'>Temperature:</p>
+    </div>
+    <div class='row'>
+        <p class='humidity'>Humidity:</p>
+    </div>
+    <div class='row'>
+        <p class='windspeed'>Wind Speed:</p>
+    </div>
+    <div class='row'>
+        <p class='UVindex'>UV Index:</p>
+    </div>
+
+    <div class='fiveday-container'>
+        <h4>Five Day Forecast:</h4>
+        <div class='Card-Row'></div>
+    </div>
+
+
 </body>
 <script src='Assets/script.js'></script>
 </html>
