@@ -46,10 +46,37 @@ button:focus {
     flex-direction: row;
     max-width: 640px;
     height: 100%;
+    Margin: -50px 400px 0px 400px; 
+    
 }
 
 .search {
     padding: 25px;
+}
+
+.CityName {
+    margin: 0px 550px 0px 550px;
+    font-size: x-large;
+}
+
+.row1 {
+    Margin:0px 400px 0px 400px;
+    font-size: x-large;
+}
+
+.row2 {
+    Margin:0px 400px 0px 400px;
+    font-size: x-large;
+}
+
+.row3 {
+    Margin:0px 400px 0px 400px;
+    font-size: x-large;
+}
+
+.row4 {
+    Margin:0px 400px 0px 400px;
+    font-size: x-large;
 }
 
 
@@ -65,8 +92,7 @@ button:focus {
 
 
  .fiveday-container {
-    margin-top: 25px;
-    margin-left: 5%;
+    font-size: x-large;
 }
 
 .card-row {
@@ -97,7 +123,7 @@ button:focus {
     margin-left: 10%;
 }
 
-.historyItems {
+.history {
     margin-top: 20px;
 }
 
