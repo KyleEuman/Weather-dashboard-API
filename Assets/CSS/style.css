@@ -2,8 +2,8 @@ body {
     height: auto;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: gold;
-    background-color: black;
+    color: black;
+    background-color: gold;
 }
 
 Header {
